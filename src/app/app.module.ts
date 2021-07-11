@@ -7,6 +7,7 @@ import { TestInputComponent } from './test-input/test-input.component';
 import { TestSelectComponent } from './test-select/test-select.component';
 import { TestNumberComponent } from './test-number/test-number.component';
 import { TestCheckboxComponent } from './test-checkbox/test-checkbox.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { TestCheckboxComponent } from './test-checkbox/test-checkbox.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

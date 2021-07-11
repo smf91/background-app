@@ -1,0 +1,31 @@
+.test-input--block {
+  display: flex;
+  align-items: center;
+  .tets-input--label {
+    width: 140px;
+    height: 24px;
+    display: flex;
+    justify-content: start;
+  }
+  .test-input--input {
+    input{
+      width: 500px;
+      height: 44px;
+      background: #FFFFFF;
+      border: 1px solid #C3C3C3;
+      box-sizing: border-box;
+      border-radius: 3px;
+    }
+  }
+  .test-input--remove-button{
+    margin-left: 15px;
+  }
+  .test-input--add-button{
+    margin-left: 15px;
+  }
+  .test-input--buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

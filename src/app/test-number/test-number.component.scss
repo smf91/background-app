@@ -1,0 +1,31 @@
+.test-number--block {
+  display: flex;
+  align-items: center;
+  .tets-number--label {
+    width: 140px;
+    height: 24px;
+    display: flex;
+  }
+  .test-number--input {
+    input{
+      width: 70;
+      height: 44px;
+      background: #FFFFFF;
+      border: 1px solid #C3C3C3;
+      box-sizing: border-box;
+      border-radius: 3px;
+    }
+  }
+  .test-number--buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5px;
+    .test-number--increment-button{
+      border: 1px solid blue;
+    }
+    .test-number--decriment-button{
+      border: 1px solid red;
+    }
+  }
+}
