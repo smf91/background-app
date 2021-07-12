@@ -1,0 +1,49 @@
+.test-number--block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.test-number--block .tets-number--label {
+  width: 140px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.test-number--block .test-number--input input {
+  width: 70;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #C3C3C3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.test-number--block .test-number--buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 5px;
+}
+
+.test-number--block .test-number--buttons .test-number--increment-button {
+  border: 1px solid blue;
+}
+
+.test-number--block .test-number--buttons .test-number--decriment-button {
+  border: 1px solid red;
+}
+/*# sourceMappingURL=test-number.component.css.map */

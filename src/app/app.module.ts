@@ -1,3 +1,4 @@
+import { RefDirective } from './ref.directive';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,6 +9,7 @@ import { TestSelectComponent } from './test-select/test-select.component';
 import { TestNumberComponent } from './test-number/test-number.component';
 import { TestCheckboxComponent } from './test-checkbox/test-checkbox.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,13 +17,21 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     TestInputComponent,
     TestSelectComponent,
     TestNumberComponent,
-    TestCheckboxComponent
+    TestCheckboxComponent,
+    RefDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
+  ],
+  entryComponents: [
+    TestInputComponent,
+    TestSelectComponent,
+    TestNumberComponent,
+    TestCheckboxComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

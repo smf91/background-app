@@ -1,5 +1,9 @@
+<header class="header">
   <h1>Анкета</h1>
+  <button (click)="getFormData()">Get form</button>
+</header>
+<body>
   <form [formGroup]="testForm">
-    <app-test-input></app-test-input>
-    <app-test-number></app-test-number>
+    <ng-template appRef></ng-template>
   </form>
+</body>

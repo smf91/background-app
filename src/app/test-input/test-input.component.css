@@ -1,0 +1,51 @@
+.test-input--block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.test-input--block .tets-input--label {
+  width: 140px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.test-input--block .test-input--input input {
+  width: 500px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #C3C3C3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.test-input--block .test-input--remove-button {
+  margin-left: 15px;
+}
+
+.test-input--block .test-input--add-button {
+  margin-left: 15px;
+}
+
+.test-input--block .test-input--buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=test-input.component.css.map */
